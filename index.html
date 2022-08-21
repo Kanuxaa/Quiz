@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Quiz</title>
+</head>
+<body>
+    <div class="box">
+        <div class="activate" id="activate"></div>
+        <div class="cheetlist" id="cheetlist">
+            <p>
+                1. Додо<br>
+                2. В Праге<br>
+                3. Флейта<br>
+                4. Ель<br>
+                5. Рояль<br>
+                6. СССР<br>
+                7. Меркурий<br>
+                8. Венера и Уран<br>
+                9. Пеле<br>
+                10. Удар сильно выше ворот<br>
+                11. 3 и 1<br>
+                12. Шарфы<br>
+                13. 12 пятиугольников и<br>
+                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp20 шестиугольников<br>
+                14. Сжиженный водород<br>
+                15. Гравитационное<br>
+            </p>
+        </div>
+        <div class="question_block">
+            <span id="order">Викторина</span>
+            <br>
+            <span id="question"></span>
+        </div>
+        <div class="start" id="start">
+            <span>В этой викторине Вы должны будете ответить на 15 вопросов. У Вас будет по 3 варианта ответов на каждый вопрос.<br> Удачи!</span>
+        </div>
+        <div class="answers" id="allAns">
+            <div class="ans" id="answer1">
+                <input type="radio" name="ans" value="1" id="answ1">
+                <label id="ans1">Ответ1</label><br>
+            </div>
+            <div class="ans" id="answer2">
+                <input type="radio" name="ans" value="2" id="answ2">
+                <label id="ans2">Ответ2</label><br>
+            </div>
+            <div class="ans" id="answer3">
+                <input type="radio" name="ans" value="3" id="answ3">
+                <label id="ans3">Ответ3</label><br>
+            </div>
+        </div>
+        <div class="correct" id="yes">
+            <span>Вeрно!</span>
+        </div>
+        <div class="uncorrect" id="no">
+            <span>Невeрно.</span>
+        </div>
+        <button class="next" id="btn">Начать</button>
+        <div class="final" id="summary">
+            <span id="end"></span>
+            <br>
+            <span id="res"></span>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
